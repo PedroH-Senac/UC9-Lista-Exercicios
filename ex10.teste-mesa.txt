@@ -1,0 +1,18 @@
+Peça ao usuário uma nota entre 0 e 10. Enquanto a nota for inválida, mostre "Nota
+inválida, digite novamente" e leia de novo. Ao final, mostre a nota aceita. Faça o teste de
+mesa para as entradas: 15, -2, 8.
+
+Entrada: 15
+É menor que 0: falso
+É maior que 10: verdadeiro
+Saída esperada: "Nota inválida, digite novamente"
+
+Entrada: -2
+É menor que 0: verdadeiro
+É maior que 10: falso
+Saída esperada: "Nota inválida, digite novamente"
+
+Entrada: 8
+É menor que 0: falso
+É maior que 10: falso
+Saída esperada: "Nota verificada/aceita: 8"
